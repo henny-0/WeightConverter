@@ -9,12 +9,17 @@
 
     <EditText
         android:id="@+id/textedit"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="377dp"
+        android:layout_height="39dp"
         android:layout_marginTop="108dp"
+        android:background="#AB000000"
         android:hint="Enter weight in Kg"
-        android:textColor="#DF0D0D"
-        android:textColorHint="#D32F2F"
+        android:paddingLeft="15sp"
+        android:paddingTop="8sp"
+        android:paddingRight="15sp"
+        android:paddingBottom="8sp"
+        android:textColor="#000000"
+        android:textColorHint="#CFD7FF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -24,10 +29,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="132dp"
-        android:text="Convert Kg to Pounds"
+        android:backgroundTint="#ffffff"
+        android:text="Convert Kilos to Pounds"
         android:textColor="#AFB42B"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textedit" />
 
@@ -37,10 +43,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="42dp"
         android:text="0"
-        android:textColor="#E10A0A"
+        android:textColor="#FFFFFF"
         android:textSize="70dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/butt" />
 

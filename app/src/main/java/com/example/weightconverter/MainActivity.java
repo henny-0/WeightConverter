@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                     try {
                         double kilos = Double.parseDouble(input);
                         double pounds = conversion(kilos);
-                        textView.setText(String.valueOf(pounds));
+                        textView.setText(String.format("%.2f",pounds) + " lb");
                     } catch (NumberFormatException e) {
                         Toast.makeText(MainActivity.this, "Invalid input. Please enter a valid number.", Toast.LENGTH_SHORT).show();
                     }
